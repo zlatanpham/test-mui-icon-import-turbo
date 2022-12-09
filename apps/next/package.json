@@ -1,0 +1,35 @@
+{
+  "name": "@monorepo-boilerplate/next",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@dwarvesf/react-hooks": "^0.7.0",
+    "@dwarvesf/react-utils": "^0.4.1",
+    "@monorepo-boilerplate/api": "*",
+    "@monorepo-boilerplate/ui": "*",
+    "@monorepo-boilerplate/utils": "*",
+    "cors": "^2.8.5",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@monorepo-boilerplate/config": "*",
+    "@types/cors": "^2.8.12",
+    "@types/node": "^17.0.12",
+    "@types/react": "17.0.37",
+    "autoprefixer": "^10.4.7",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}
