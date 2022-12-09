@@ -52,7 +52,15 @@
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@mui/material": "5.6.4",
+    "@emotion/cache": "11.6.0",
+    "@emotion/react": "11.7.0",
+    "@emotion/server": "11.4.0",
+    "@emotion/styled": "11.6.0",
+    "@mui/lab": "5.0.0-alpha.80",
+    "mdi-material-ui": "7.1.0"
+  },
   "packageManager": "yarn@1.22.18",
   "husky": {
     "hooks": {

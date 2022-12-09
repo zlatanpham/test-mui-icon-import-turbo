@@ -1,6 +1,7 @@
 import { PropsWithChildren } from 'react'
 import classNames from 'classnames'
 import { forwardRefWithAs } from '@monorepo-boilerplate/utils'
+import ArrowUp from 'mdi-material-ui/ArrowUp'
 import { IconSpinner } from '../icons/components/IconSpinner'
 import { BaseButton, BaseButtonProps } from '../BaseButton'
 import { ButtonAppearance } from '../BaseButton/types'
@@ -124,6 +125,7 @@ export const Button = forwardRefWithAs<'button', ButtonProps>(
           getAppearanceButtonStyles(passedInProps),
         )}
       >
+        <ArrowUp />
         {children}
       </BaseButton>
     )
